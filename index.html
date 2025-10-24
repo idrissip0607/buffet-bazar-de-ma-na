@@ -1,136 +1,204 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le Bazar de Maina - Buffet Découverte</title>
-        
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        
-        <script>
-            tailwind = {
-                config: {
-                    theme: {
-                        extend: {
-                            colors: {
-                                primary: '#E67E22',
-                                secondary: '#F39C12',
-                                accent: '#D35400'
-                            },
-                            fontFamily: {
-                                poppins: ['Poppins', 'sans-serif'],
-                                playfair: ['Playfair Display', 'serif']
-                            }
-                        }
-                    }
-                }
-            };
-        </script>
-        
-        <script src="https://cdn.tailwindcss.com"></script>
-        
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-        
-        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-</head>
-<body class="bg-gradient-to-b from-orange-50 to-orange-100 min-h-screen font-poppins">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind = {
+        config: {
+          theme: {
+            extend: {
+              colors: {
+                primary: "#E67E22",
+                secondary: "#F39C12",
+                accent: "#D35400",
+              },
+              fontFamily: {
+                poppins: ["Poppins", "sans-serif"],
+                playfair: ["Playfair Display", "serif"],
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body
+    class="bg-gradient-to-b from-orange-50 to-orange-100 min-h-screen font-poppins"
+  >
     <custom-navbar></custom-navbar>
-    
+
     <main class="container mx-auto px-4 py-12">
-        
-        <div class="hero bg-base-200 rounded-2xl shadow-lg p-8">
-            <div class="hero-content text-center">
-                <div class="max-w-2xl">
-                    <h1 class="text-4xl md:text-5xl font-bold font-playfair">Buffet Découverte</h1>
-                    <p class="py-4 text-gray-700">Nous vous invitons à découvrir nos nouvelles collections,nous rencontrer et profiter d'un buffet debout convivial à Marcory.</p>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_0Zh-2fY2ksBMez0cJ8vZWyYDTcipZ-WAkULIdCopImyrqw/viewform?usp=publish-editor" target="_blank" class="btn btn-neutral btn-lg">Inscrivez-vous ici</a>
-                </div>
+      <div class="hero bg-base-200 rounded-2xl shadow-lg p-8">
+        <div class="hero-content text-center">
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold font-playfair">
+              Buffet Découverte
+            </h1>
+            <p class="py-4 text-gray-700">
+              Nous vous invitons à découvrir nos nouvelles collections,nous
+              rencontrer et profiter d'un buffet debout convivial à Marcory.
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe_0Zh-2fY2ksBMez0cJ8vZWyYDTcipZ-WAkULIdCopImyrqw/viewform?usp=publish-editor"
+              target="_blank"
+              class="btn btn-neutral btn-lg"
+              >Inscrivez-vous ici</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <div
+          class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1"
+        >
+          <div class="card-body">
+            <div class="flex items-center space-x-4">
+              <div
+                class="bg-violet-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center"
+              >
+                👗
+              </div>
+              <div>
+                <h2 class="card-title font-playfair">Vêtements (balles)</h2>
+                <p class="text-sm text-gray-600">
+                  Découvrez nos dernières collections
+                </p>
+              </div>
             </div>
+          </div>
         </div>
 
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-            <div class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1">
-                <div class="card-body">
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-violet-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center">
-                            👗
-                        </div>
-                        <div>
-                            <h2 class="card-title font-playfair">Vêtements (balles)</h2>
-                            <p class="text-sm text-gray-600">Découvrez nos dernières collections</p>
-                        </div>
-                    </div>
-                </div>
+        <div
+          class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1"
+        >
+          <div class="card-body">
+            <div class="flex items-center space-x-4">
+              <div
+                class="bg-blue-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center"
+              >
+                👦
+              </div>
+              <div>
+                <h2 class="card-title font-playfair">Vêtements pour enfants</h2>
+                <p class="text-sm text-gray-600">
+                  Tendances pour les plus petits
+                </p>
+              </div>
             </div>
-
-            <div class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1">
-                <div class="card-body">
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-blue-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center">
-                            👦
-                        </div>
-                        <div>
-                            <h2 class="card-title font-playfair">Vêtements pour enfants</h2>
-                            <p class="text-sm text-gray-600">Tendances pour les plus petits</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1">
-                <div class="card-body">
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-green-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center">
-                            🌶
-                        </div>
-                        <div>
-                            <h2 class="card-title font-playfair">Épices locales</h2>
-                            <p class="text-sm text-gray-600">Saveurs authentiques de la région</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1">
-                <div class="card-body">
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-gray-100 text-3xl shadow-md rounded-full w-12 h-12 flex items-center justify-center">
-                            🧴
-                        </div>
-                        <div>
-                            <h2 class="card-title font-playfair">Parfums & produits divers</h2>
-                            <p class="text-sm text-gray-600">Essences uniques et produits variés</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
 
-        
-        <div class="card bg-base-100 shadow-lg mt-8">
-            <div class="card-body md:flex md:items-center md:justify-between">
-                <div>
-                    <h3 class="text-xl font-bold text-center">Date et lieu</h3>
-                    <div class="mt-2 space-y-1 text-sm text-gray-600">
-                        <p class="flex items-center"><i data-feather="calendar" class="mr-2"></i> Date : </p>
-                        <p class="flex items-center"><i data-feather="clock" class="mr-2"></i> Heure : </p>
-                        <p class="flex items-center"><i data-feather="map-pin" class="mr-2"></i> Lieu : <a href="https://maps.app.goo.gl/mHerA6dSEJNUDUuw6" target="_blank">Boutique Le Bazar de Maïna – Marcory</a></p>
-                    </div>
-                </div>
-                <div class="mt-4 md:mt-0">
-                    <img src="img/qr forms bazar.jpeg" alt="QR Code" class="w-32 h-32 mx-auto">
-                    <p class="text-center text-red-500 font-bold">Scannez le formulaire d'invitation</p>
-                </div>
+        <div
+          class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1"
+        >
+          <div class="card-body">
+            <div class="flex items-center space-x-4">
+              <div
+                class="bg-green-50 shadow-md text-3xl rounded-full w-12 h-12 flex items-center justify-center"
+              >
+                🌶
+              </div>
+              <div>
+                <h2 class="card-title font-playfair">Épices locales</h2>
+                <p class="text-sm text-gray-600">
+                  Saveurs authentiques de la région
+                </p>
+              </div>
             </div>
+          </div>
         </div>
 
-        
-        <div class="mt-8 text-center">
-            <p class="text-gray-700 mb-4">👉 Inscription obligatoire via le formulaire - Toutes les réponses sont enregistrées dans notre système .</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_0Zh-2fY2ksBMez0cJ8vZWyYDTcipZ-WAkULIdCopImyrqw/viewform?usp=publish-editor" target="_blank" class="btn btn-neutral">Accéder au formulaire</a>
+        <div
+          class="card bg-base-100 shadow hover:shadow-lg transition-transform transform hover:-translate-y-1"
+        >
+          <div class="card-body">
+            <div class="flex items-center space-x-4">
+              <div
+                class="bg-gray-100 text-3xl shadow-md rounded-full w-12 h-12 flex items-center justify-center"
+              >
+                🧴
+              </div>
+              <div>
+                <h2 class="card-title font-playfair">
+                  Parfums & produits divers
+                </h2>
+                <p class="text-sm text-gray-600">
+                  Essences uniques et produits variés
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-lg mt-8">
+        <div class="card-body md:flex md:items-center md:justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-center">Date et lieu</h3>
+            <div class="mt-2 space-y-1 text-sm text-gray-600">
+              <p class="flex items-center">
+                <i data-feather="calendar" class="mr-2"></i> Date :
+              </p>
+              <p class="flex items-center">
+                <i data-feather="clock" class="mr-2"></i> Heure :
+              </p>
+              <p class="flex items-center">
+                <i data-feather="map-pin" class="mr-2"></i> Lieu :
+                <a
+                  href="https://maps.app.goo.gl/mHerA6dSEJNUDUuw6"
+                  target="_blank"
+                  >Boutique Le Bazar de Maïna – Marcory</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <img
+              src="img/qr forms bazar.jpeg"
+              alt="QR Code"
+              class="w-32 h-32 mx-auto"
+            />
+            <p class="text-center text-red-500 font-bold">
+              Scannez le formulaire d'invitation
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center">
+        <p class="text-gray-700 mb-4">
+          👉 Inscription obligatoire via le formulaire - Toutes les réponses
+          sont enregistrées dans notre système .
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe_0Zh-2fY2ksBMez0cJ8vZWyYDTcipZ-WAkULIdCopImyrqw/viewform?usp=publish-editor"
+          target="_blank"
+          class="btn btn-neutral"
+          >Accéder au formulaire</a
+        >
+      </div>
     </main>
 
     <custom-footer></custom-footer>
@@ -139,7 +207,7 @@
     <script src="components/footer.js"></script>
     <script src="script.js"></script>
     <script>
-        feather.replace();
+      feather.replace();
     </script>
-</body>
+  </body>
 </html>

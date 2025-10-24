@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           <div>
             <h3 class="font-playfair text-center text-xl font-bold mb-2">Suivez-nous</h3>
-            <div class="flex justify-center md:justyfy-none gap-3 mt-2">
+            <div class="flex justify-center md:justyfy-none gap-3 mt-2 mb-4">
               <a href="#" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/90"><i class="bi text-2xl bi-tiktok"></i></a>
               <a href="#" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center "><i class="bi bi-facebook text-2xl text-blue-500"></i></a>
               <a href="#" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center "><i class="bi bi-instagram text-2xl text-red-600"></i></a>

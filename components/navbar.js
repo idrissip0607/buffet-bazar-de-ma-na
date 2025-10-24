@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!Nav) return;
 
   Nav.innerHTML = `
-    <nav class="w-full bg-white text-dark px-6 py-4 shadow">
+    <nav class="w-full bg-white text-dark px-6 py-4 shadow sticky top-0 z-50">
         <div class="text-xl flex items-center font-playfair flex justify-center font-bold uppercase tracking-wide"><img src="img/logo.png"alt="logo" class="w-20"> Le Bazar de Maïna</div>
     
     </nav>

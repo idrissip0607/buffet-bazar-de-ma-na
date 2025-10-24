@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           
         </div>
         
-          <p class="text-center">&copy; ${year} Le Bazar de Maina. Tous droits réservés. developpé par <span class="text-green-500 font-bold">Idriss Traoré</span></p>
+          <p class="text-center">&copy; ${year} Le Bazar de Maïna. Tous droits réservés. developpé par <span class="text-green-500 font-bold">Idriss Traoré</span></p>
           
         </div>
       </div>

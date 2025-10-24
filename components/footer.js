@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           
         </div>
-        <div class="mt-8 flex flex-col md:flex-row justify-center pt-4 text-md ">
-          <p>&copy; ${year} Le Bazar de Maina. Tous droits réservés.</p>
-          <p class="text-center"> developpé par <span class="text-green-500 font-bold">Idriss Traoré</span></p>
+        
+          <p class="text-center">&copy; ${year} Le Bazar de Maina. Tous droits réservés. developpé par <span class="text-green-500 font-bold">Idriss Traoré</span></p>
+          
         </div>
       </div>
     </footer>
